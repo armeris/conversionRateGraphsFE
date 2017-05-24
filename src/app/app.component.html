@@ -1,0 +1,18 @@
+<h1>
+  {{title}}
+</h1>
+
+<h2>EUR -> JPY</h2>
+<ul>
+  <li *ngFor="let rate of rates['eur_jpy']">{{rate.rate}}</li>
+</ul>
+
+<h2>BTC -> EUR</h2>
+<ul>
+  <li *ngFor="let rate of rates['btc_eur']">{{rate.rate}}</li>
+</ul>
+
+<h2>BTC -> JPY</h2>
+<ul>
+  <li *ngFor="let rate of rates['btc_jpy']">{{rate.rate}}</li>
+</ul>
